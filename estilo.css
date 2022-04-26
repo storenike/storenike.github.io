@@ -1,0 +1,229 @@
+body{
+    background:#07AFB9;
+}
+
+h1{
+ font-size:50px;
+ font-style:tahoma;
+  text-align:center;
+  color:white;
+ 
+}
+p{
+font-size:12px;
+ font-style:tahoma;
+  text-align:center;
+  color:white;
+
+}
+table{ 
+border-style:solid;
+  border-color:white;
+  border:23;
+  width:90%;
+  text-align:center;
+ }
+  
+  
+ td{
+	 background-color:white;
+	 text-align:white;
+ }
+ 
+ 
+ th{
+ background-color:white;
+ 
+ }
+ 
+ 
+/*codigo para tabla transparente*/
+.sin{
+ border-style:transparent;
+ border:0;
+ background-color:transparent;
+ }
+
+
+
+/*tamaño de imagenes*/
+.img{
+  border-style:solid;
+  border-color:transparent;
+  border:1;
+  width:10%;
+  height;30%;
+  
+}
+.img2{
+  border-style:solid;
+  border-color:transparent;
+  border:1;
+  width:70%;
+  height;80%;
+  
+}
+ /*tabla de contacto*/
+ 
+ .nose{
+	border-style:dotted;
+    border-color:#00D4E0;
+    border:1;
+    background-color:transparennt;
+    width:10%;
+    height:10%;	
+ }
+ 
+ /*codigo para imagenes principal*/
+.cook{
+	width:300px;
+	height:200px;
+}
+
+
+/*codigo de logo*/
+
+.logo{
+	width:250px;
+	height:150px;
+}
+
+ /*texto de historia*/
+ 
+ .pi{
+	 font-size:30px;
+	 font-style:tahoma;
+	 text-align:center;
+	 color:;
+ }
+ 
+ 
+ .sin{
+  border-style:transparent;
+  border:0;
+  background-color:transparent;
+  }
+  
+  
+.div{
+   border:5px solid 3;
+   background:url("color1.jpg");
+   border-radius:20px;
+  margin: auto;
+   }
+   
+   
+.div2{
+  border:5px solid 3;
+   background:url("azull.jpg");
+   border-radius:20px;
+  margin: auto;
+   }
+   
+ .div3{
+	 border:5px solid 3;
+   background:url("color3.jpg");
+   border-radius:20px;
+  margin: auto;
+ }
+ 
+ .div4{
+	 border:5px solid 3;
+   background:url("color4.jpg");
+   border-radius:20px;
+  margin: auto;
+ }
+ 
+ .caja{
+	 height:280px;
+	 width:250px;
+	 border:1px solid #eee;
+	 background:#E0E5D9;
+	 margin:5px;
+	 color:white;
+	 text-align:center;
+	 font-family:"lato", sans-serif;
+	 display:inline-block;
+ }
+ 
+ .caja:hover{
+	 /*colocar sombra al div*/
+	         /* x y radio color*/
+	 box-shadow:0 0 10px black;
+	 /*cambia el tema o de escala del div*/
+	 transform:scale(1.3);
+ }
+ 
+ .caja-texto{
+	 padding-bottom:3px;
+	 padding-top:2px;
+	 font-size:30px;
+	 color:black;
+	 font-weight:bold;
+ }
+ 
+ 
+.texto-adicional{
+	padding-top:3px;
+	font-size:15px;
+}
+
+@font-face{
+  font-family:"xio";
+  src:url (WRESTLEMANIA.ttf);
+ }
+ 
+ #fuente-WRESTLEMANIA{
+    font-family:"nose";
+	src:url (WRESTLEMANIA.ttf);
+ }
+ 
+#fuente-nose{
+   font-family: 'Indie Flower', cursive;
+}
+.navegacion{
+ display:flex;
+ height:100px
+}
+
+.navegacion-item{
+   
+    flex:1;
+	color:#fff;
+	font-weight:bold;
+	font-size:30px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+
+.navegacion-item:hover{
+   flex-grow:10;
+}
+
+.navegacion-item:hover .navegacion-titulo{
+       transform:rotate(0);
+}
+
+.navegacion-item:nth-child(1){
+     background:#FF9300;
+}
+
+.navegacion-item:nth-child(2){
+   background:#0D8D9F;
+}
+
+.navegacion-item:nth-child(3){
+   background:#DAF30A;
+}
+
+.navegacion-item:nth-child(4){
+   background:#F3380A;
+}
+
+.navegacion-titulo{
+   margin:0;
+   transform:rotate(-90deg);
+   transition:transform 0.2s 0.2s;
+}
